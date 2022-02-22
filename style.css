@@ -1,0 +1,28 @@
+
+body{
+    background:url("Beauty_Red-Lipstick-History_08-10SOCIAL.jpg");
+}
+
+#heading {
+    font-size: 30px;
+    font-family:'Quintessential', cursive;
+}
+
+.snap:hover{
+    background-color:brown;
+}
+
+canvas {
+    animation-name: shadow;
+    animation-duration: 2s;
+    animation-iteration-count: 1000000;
+}
+
+@keyframes shadow{
+    from{
+        box-shadow: 1px 1px 30px purple;
+    }
+    to {
+        box-shadow: 1px 1px 40px red;
+    }
+}
